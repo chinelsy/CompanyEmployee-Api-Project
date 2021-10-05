@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\hp\\source\\repos\\EmployeesApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\EmployeesApi\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -104,6 +108,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.10, )"
