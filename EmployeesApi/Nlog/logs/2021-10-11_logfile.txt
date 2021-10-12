@@ -1,0 +1,30 @@
+2021-10-11 04:27:39.9508 INFO Company with id: 0ad5b971-ff51-414d-af01-34187e407557 doesn't exist in the database.
+2021-10-11 04:38:51.0124 INFO Company with id: 80abbca8-664d-4b20-b5de-024705497d4a doesn't exist in the database.
+2021-10-11 05:09:39.1419 INFO Here is info message from our values controller.
+2021-10-11 05:09:40.1540 DEBUG Here is debug message from our values controller.
+2021-10-11 05:09:40.2266 WARN Here is warn message from our values controller.
+2021-10-11 05:09:40.2266 ERROR Here is an error message from our values controller.
+2021-10-11 05:14:26.6268 INFO Here is info message from our values controller.
+2021-10-11 05:14:26.8532 DEBUG Here is debug message from our values controller.
+2021-10-11 05:14:26.8895 WARN Here is warn message from our values controller.
+2021-10-11 05:14:26.9165 ERROR Here is an error message from our values controller.
+2021-10-11 12:09:30.6707 INFO Here is info message from our values controller.
+2021-10-11 12:09:31.0895 DEBUG Here is debug message from our values controller.
+2021-10-11 12:09:31.1198 WARN Here is warn message from our values controller.
+2021-10-11 12:09:31.1284 ERROR Here is an error message from our values controller.
+2021-10-11 12:47:26.3655 INFO Here is info message from our values controller.
+2021-10-11 12:47:26.5674 DEBUG Here is debug message from our values controller.
+2021-10-11 12:47:26.5840 WARN Here is warn message from our values controller.
+2021-10-11 12:47:26.5840 ERROR Here is an error message from our values controller.
+2021-10-11 13:04:40.0557 INFO Here is info message from our values controller.
+2021-10-11 13:04:40.5372 DEBUG Here is debug message from our values controller.
+2021-10-11 13:04:40.5916 WARN Here is warn message from our values controller.
+2021-10-11 13:04:40.6137 ERROR Here is an error message from our values controller.
+2021-10-11 13:42:35.3644 INFO Here is info message from our values controller.
+2021-10-11 13:42:36.0044 DEBUG Here is debug message from our values controller.
+2021-10-11 13:42:36.0183 WARN Here is warn message from our values controller.
+2021-10-11 13:42:36.0328 ERROR Here is an error message from our values controller.
+2021-10-11 13:46:38.7192 INFO Here is info message from our values controller.
+2021-10-11 13:46:38.9426 DEBUG Here is debug message from our values controller.
+2021-10-11 13:46:38.9571 WARN Here is warn message from our values controller.
+2021-10-11 13:46:38.9715 ERROR Here is an error message from our values controller.

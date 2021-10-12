@@ -1,0 +1,37 @@
+2021-10-12 02:16:59.4032 INFO Company with id: 53a1237a-3ed3-4462-b9f0-5a7bb1056a33 doesn't exist in the database.
+2021-10-12 02:26:27.3380 INFO Here is info message from our values controller.
+2021-10-12 02:26:27.7303 DEBUG Here is debug message from our values controller.
+2021-10-12 02:26:27.7524 WARN Here is warn message from our values controller.
+2021-10-12 02:26:27.7961 ERROR Here is an error message from our values controller.
+2021-10-12 02:43:47.7720 INFO Here is info message from our values controller.
+2021-10-12 02:43:48.0396 DEBUG Here is debug message from our values controller.
+2021-10-12 02:43:48.0507 WARN Here is warn message from our values controller.
+2021-10-12 02:43:48.0669 ERROR Here is an error message from our values controller.
+2021-10-12 02:44:26.5264 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 02:49:27.0326 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 02:50:45.4982 INFO Company with id: 53a1237a-3ed3-4462-b9f0-5a7bb1056a33 doesn't exist in the database.
+2021-10-12 02:52:56.4705 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 02:53:25.9238 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 02:56:35.0019 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 02:58:10.3629 INFO Here is info message from our values controller.
+2021-10-12 02:58:10.6375 DEBUG Here is debug message from our values controller.
+2021-10-12 02:58:10.7076 WARN Here is warn message from our values controller.
+2021-10-12 02:58:10.7255 ERROR Here is an error message from our values controller.
+2021-10-12 02:58:49.9628 ERROR Invalid model state for the EmployeeForCreationDto object
+2021-10-12 03:18:49.0302 INFO Here is info message from our values controller.
+2021-10-12 03:18:49.2504 DEBUG Here is debug message from our values controller.
+2021-10-12 03:18:49.2532 WARN Here is warn message from our values controller.
+2021-10-12 03:18:49.2786 ERROR Here is an error message from our values controller.
+2021-10-12 03:23:46.6965 ERROR Invalid model state for the EmployeeForUpdateDto object
+2021-10-12 03:34:10.9569 INFO Here is info message from our values controller.
+2021-10-12 03:34:11.2390 DEBUG Here is debug message from our values controller.
+2021-10-12 03:34:11.2632 WARN Here is warn message from our values controller.
+2021-10-12 03:34:11.2701 ERROR Here is an error message from our values controller.
+2021-10-12 03:34:33.1066 INFO Here is info message from our values controller.
+2021-10-12 03:34:33.4167 DEBUG Here is debug message from our values controller.
+2021-10-12 03:34:33.4369 WARN Here is warn message from our values controller.
+2021-10-12 03:34:33.4434 ERROR Here is an error message from our values controller.
+2021-10-12 03:44:13.5341 INFO Here is info message from our values controller.
+2021-10-12 03:44:13.5851 DEBUG Here is debug message from our values controller.
+2021-10-12 03:44:13.5851 WARN Here is warn message from our values controller.
+2021-10-12 03:44:13.5851 ERROR Here is an error message from our values controller.

@@ -8,39 +8,43 @@ namespace EmployeesApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private readonly IRepositoryManager _repository;
-        public WeatherForecastController(IRepositoryManager repository)
+        private readonly ILoggerManager _logger;
+        public WeatherForecastController(ILoggerManager logger)
         {
-            _repository = repository;
+            _logger = logger;
         }
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-           //_repository.Company.AnyMethodFromCompanyRepository();
-           //_repository.Employee.AnyMethodFromEmployeeRepository();
-            return new string[] { "value1", "value2" };
 
+        public IEnumerable<string> Get() 
+        {
+            _logger.LogInfo("Here is info message from our values controller.");
+            _logger.LogDebug("Here is debug message from our values controller.");
+            _logger.LogWarn("Here is warn message from our values controller.");
+            _logger.LogError("Here is an error message from our values controller.");
+
+            return new string[] { "value1", "value2" };
         }
+       
          
 
 }   }
 
 
-    /*private ILoggerManager _logger;
-    public WeatherForecastController(ILoggerManager logger)
+/*
+  private readonly IRepositoryManager _repository;
+    public WeatherForecastController(IRepositoryManager repository)
     {
-        _logger = logger;
+        _repository = repository;
     }
-
-    public IEnumerable<string> Get()
+    [HttpGet]
+    public ActionResult<IEnumerable<string>> Get()
     {
-        _logger.LogInfo("Here is info message from our values controller.");
-        _logger.LogDebug("Here is debug message from our values controller.");
-        _logger.LogWarn("Here is warn message from our values controller.");
-        _logger.LogError("Here is an error message from our values controller.");
+       _repository.Company.GetAllCompanies();
+       _repository.Employee.AnyMethodFromEmployeeRepository();
         return new string[] { "value1", "value2" };
-    }*/
 
- 
+    }
+*/
+
+
 
 
