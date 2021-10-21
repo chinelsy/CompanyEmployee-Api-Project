@@ -24,7 +24,6 @@ C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\staticwebass
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\staticwebassets\EmployeesApi.StaticWebAssets.xml
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\scopedcss\bundle\EmployeesApi.styles.css
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\EmployeesApi.RazorTargetAssemblyInfo.cache
-C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\EmployeesApi.csproj.CopyComplete
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\EmployeesApi.dll
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\ref\EmployeesApi.dll
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\obj\Debug\net5.0\EmployeesApi.pdb
@@ -70,3 +69,9 @@ C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\AutoMapper.E
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\source\repos\EmployeesApi\EmployeesApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

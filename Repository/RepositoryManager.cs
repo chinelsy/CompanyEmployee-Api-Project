@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class RepositoryManager : IRepositoryManager
+    public class RepositoryManager : IRepositoryManager 
     {
         private readonly RepositoryContext _repositoryContext;
         private ICompanyRepository _companyRepository;
@@ -35,7 +35,8 @@ namespace Repository
                 return _employeeRepository;
             }
         }
-        public void Save() => _repositoryContext.SaveChanges();
-        
+        public Task SaveAsync() => _repositoryContext.SaveChangesAsync();
+
+       
     }
 }
