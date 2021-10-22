@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLog;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -42,7 +43,8 @@ namespace EmployeesApi
             services.AddAuthentication();
             services.ConfigureIdentity();
             services.ConfigureJWT(Configuration);
-
+            services.AddScoped<IAuthenticationManager, AuthenticationManager>();
+            services.ConfigureSwagger();
             services.AddControllers(config =>
             {
                 config.RespectBrowserAcceptHeader = true;
@@ -64,6 +66,13 @@ namespace EmployeesApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(s =>
+                {
+                    s.SwaggerEndpoint("/swagger/v1/swagger.json", "EmployeesApi v1");
+                    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+                });
+
             }
 
             else

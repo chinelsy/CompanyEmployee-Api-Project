@@ -15,6 +15,7 @@ namespace EmployeesApi.Controllers
 {
     [Route("api/companies")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v1")] 
     public class CompaniesController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
@@ -28,7 +29,7 @@ namespace EmployeesApi.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet(Name = "GetCompanies"), Authorize]
+        [HttpGet(Name = "GetCompanies"), Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCompanyAsync()
         {
 
