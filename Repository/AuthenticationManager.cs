@@ -39,7 +39,7 @@ namespace Repository
         }
         private SigningCredentials GetSigningCredentials()
         {
-            var key = Encoding.UTF8.GetBytes("JwtSettings:Secret");
+            var key = Encoding.UTF8.GetBytes("JwtSettings:secret");
             var secret = new SymmetricSecurityKey(key);
             return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
 
