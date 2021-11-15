@@ -23,6 +23,12 @@ namespace Repository
             _userManager = userManager;
             _configuration = configuration;
         }
+
+        public async Task<bool> ValidateUser(UserForAuthenticationDto userForAuth)
+        {
+            _user = await _userManager.FindByNameAsync(userForAuth.UserName);
+            return (_user != null && await _userManager.CheckPasswordAsync(_user, userForAuth.Password));
+        }
         public async Task<string> CreateToken() 
         {
             var signingCredentials = GetSigningCredentials();
@@ -32,15 +38,12 @@ namespace Repository
 
         }
 
-        public async Task<bool> ValidateUser(UserForAuthenticationDto userForAuth)
-        {
-            _user = await _userManager.FindByNameAsync(userForAuth.UserName);
-            return (_user != null && await _userManager.CheckPasswordAsync(_user, userForAuth.Password));
-        }
+        
         private SigningCredentials GetSigningCredentials()
         {
-            var key = Encoding.UTF8.GetBytes("JwtSettings:secret");
-            var secret = new SymmetricSecurityKey(key);
+            var jwtSettings = _configuration.GetSection("JwtSettings");
+            var Key = Encoding.UTF8.GetBytes(jwtSettings.GetSection("secret").Value);
+            var secret = new SymmetricSecurityKey(Key);
             return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
 
         }

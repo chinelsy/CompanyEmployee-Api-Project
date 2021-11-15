@@ -43,14 +43,14 @@ namespace EmployeesApi.Controllers
         public IActionResult GetEmployeeForCompany(Guid companyId, Guid id)
         {
             var company = _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
-            if (company == null)
+            if (company == null) 
             {
                 _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
                 return NotFound();
             }
             var employeeDb = _repository.Employee.GetEmployee(companyId, id, trackChanges:
            false);
-            if (employeeDb == null)
+            if (employeeDb == null) 
             {
                 _logger.LogInfo($"Employee with id: {id} doesn't exist in the database.");
                 return NotFound();
@@ -166,6 +166,7 @@ namespace EmployeesApi.Controllers
             }
             var employeeToPatch = _mapper.Map<EmployeeForUpdateDto>(employeeEntity);
             patchDoc.ApplyTo(employeeToPatch, ModelState);
+            TryValidateModel(employeeToPatch);
             if (!ModelState.IsValid)
             {
                 _logger.LogError("Invalid model state for the patch document");

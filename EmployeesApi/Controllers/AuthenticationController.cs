@@ -20,10 +20,11 @@ namespace EmployeesApi.Controllers
         {
             _logger = logger; 
             _mapper = mapper; 
-            _userManager = userManager;
+            _userManager = userManager; 
             _authManager = authManager;
         }
         [HttpPost]
+       // [Route("Register")]
         public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
         {
             var user = _mapper.Map<User>(userForRegistration);

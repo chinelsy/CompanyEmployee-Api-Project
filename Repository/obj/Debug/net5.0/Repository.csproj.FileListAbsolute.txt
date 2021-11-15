@@ -11,7 +11,6 @@ C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.Gen
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
-C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.dll
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\ref\Repository.dll
 C:\Users\hp\source\repos\EmployeesApi\Repository\obj\Debug\net5.0\Repository.pdb

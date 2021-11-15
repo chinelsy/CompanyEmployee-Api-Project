@@ -2,7 +2,6 @@ C:\Users\hp\source\repos\EmployeesApi\Entities\bin\Debug\net5.0\Entities.deps.js
 C:\Users\hp\source\repos\EmployeesApi\Entities\bin\Debug\net5.0\Entities.dll
 C:\Users\hp\source\repos\EmployeesApi\Entities\bin\Debug\net5.0\ref\Entities.dll
 C:\Users\hp\source\repos\EmployeesApi\Entities\bin\Debug\net5.0\Entities.pdb
-C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.csproj.
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.dll
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\ref\Entities.dll
 C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.pdb
+C:\Users\hp\source\repos\EmployeesApi\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
 using Contracts;
+using EmployeesApi.ActinFilters;
 using EmployeesApi.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -45,6 +46,8 @@ namespace EmployeesApi
             services.ConfigureJWT(Configuration);
             services.AddScoped<IAuthenticationManager, AuthenticationManager>();
             services.ConfigureSwagger();
+            services.AddScoped<ValidationFilterAttribute>();
+            services.AddScoped<ValidateCompanyExistsAttribute>();
             services.AddControllers(config =>
             {
                 config.RespectBrowserAcceptHeader = true;
@@ -70,7 +73,7 @@ namespace EmployeesApi
                 app.UseSwaggerUI(s =>
                 {
                     s.SwaggerEndpoint("/swagger/v1/swagger.json", "EmployeesApi v1");
-                    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+                    s.SwaggerEndpoint("/swagger/v2/swagger.json", "CompanyApi v2");
                 });
 
             }
